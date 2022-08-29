@@ -1,5 +1,11 @@
+import HeroBanner from "./components/HeroBanner";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <HeroBanner />
+    </>
+  );
 }
 
 export default App;
